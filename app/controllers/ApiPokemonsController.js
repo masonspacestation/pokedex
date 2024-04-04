@@ -48,7 +48,13 @@ export class ApiPokemonsController {
     }
   }
 
-
+  mapTypes() {
+    let allTypes = AppState.activePokemon
+    allTypes.map((type) => {
+      console.log(type);
+    })
+    console.log(AppState.activePokemon.types);
+  }
 
 
 }
