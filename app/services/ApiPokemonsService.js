@@ -24,12 +24,6 @@ class ApiPokemonsService {
     console.log('service got active by name ', AppState.activePokemon);
   }
 
-  // const response = await dndApi.get(`spells/${spellIndex}`)
-  // console.log('🐉📄🪄', response.data);
-  // const spell = new Spell(response.data)
-  // AppState.activeSpell = spell
-
-
 
 
 

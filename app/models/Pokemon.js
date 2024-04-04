@@ -86,7 +86,7 @@ export class Pokemon {
     this.img = results.sprites.front_default
     this.weight = results.weight
     this.height = results.height
-    this.types = formatTypes(results.types)
+    this.types = formatTypes(results.types.name)
     this.creatorId = results.creatorId
     // this.creator = data.creator
     // this.createdAt = data.createdAt
